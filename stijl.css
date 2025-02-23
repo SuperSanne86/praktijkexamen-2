@@ -1,0 +1,152 @@
+@media (max-width: 480px) {
+  * {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header .header h1 {
+    font-size: 1.5em;
+  }
+
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .topnav a {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw; /* Zorgt ervoor dat de container de hele viewport breedte gebruikt */
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+  }
+
+  .col-3, .col-9 {
+    width: 100vw; /* Zorgt ervoor dat ze de volledige breedte van het scherm innemen */
+    min-width: 100vw;
+    margin: 0;
+    padding: 10px;
+  }
+  .col-3 {
+    width: 100vw;
+    min-width: 100vw;
+    margin: 0;
+    padding: 10px;
+    background-color: #f3c79a;
+  }
+  img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+  }
+
+  footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #333;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+.container {
+  display: flex;
+}
+.col-3 {
+  background-color: #f3c79a;
+}
+.col-9 {
+  margin-left: 0;
+}
+.header {
+  padding: 45px;
+  text-align: center;
+  background:#ea6e0b;
+  color: white;
+}
+.stijl1 {
+  border: none;
+  background-color: yellow;
+  height: 5px;
+  margin: 0;
+}
+.topnav {
+  padding: 10px;
+  background-color:#bc4b06;
+}
+.topnav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+.topnav a:hover {
+  background-color: #ea6e0b;
+}
+.h2stijl {
+  color: #bc4b06;
+  font-weight: bold;
+}
+.afbeelding-hannah {
+  float: right;
+}
+.afbeelding-jesse {
+  float: left;
+}
+input[type="text"], input[type="email"], select, textarea {
+  width: 100%;
+  padding: 5px;
+}
+input[type="submit"] {
+  background-color: #bc4b06;
+  color: white;
+  width: auto;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+textarea {
+  height: 200px;
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  background:#bc4b06;
+}
